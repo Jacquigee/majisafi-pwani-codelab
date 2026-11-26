@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mobile-mcp": {
+      "command": "npx",
+      "args": ["-y", "@mobilenext/mobile-mcp@latest"]
+    },
+    "mock-device-mcp": {
+      "command": "python3",
+      "args": ["scripts/mock_device_mcp.py"]
+    }
+  }
+}
